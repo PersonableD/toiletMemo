@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.9.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1080 1920" style="enable-background:new 0 0 1080 1920;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#34BBD8;}
+	.st2{fill:#2CD5CE;}
+	.st3{display:none;}
+	.st4{fill:url(#New_Pattern);}
+	.st5{fill:#FFFFFF;stroke:#939598;stroke-width:20;stroke-miterlimit:10;}
+	.st6{fill:#939598;stroke:#939598;stroke-width:20;stroke-miterlimit:10;}
+	.st7{display:inline;fill:#FFFFFF;stroke:#939598;stroke-width:20;stroke-miterlimit:10;}
+	.st8{opacity:0.5;fill:#9BFBFF;}
+</style>
+<pattern  width="288" height="288" patternUnits="userSpaceOnUse" id="New_Pattern" viewBox="0 -288 288 288" style="overflow:visible;">
+	<g>
+		<rect y="-288" class="st0" width="288" height="288"/>
+		<rect x="0" y="-288" class="st1" width="288" height="288"/>
+		<path class="st2" d="M265.19-8.55H22.81c-7.87,0-14.26-6.38-14.26-14.26v-242.38c0-7.87,6.38-14.26,14.26-14.26h242.38
+			c7.87,0,14.26,6.38,14.26,14.26v242.38C279.45-14.94,273.06-8.55,265.19-8.55z"/>
+	</g>
+</pattern>
+<g id="Layer_1" class="st3">
+	<rect x="0" class="st4" width="1080" height="1920"/>
+	<ellipse class="st5" cx="540" cy="654.46" rx="483.55" ry="531.48"/>
+	<path class="st5" d="M811.36,141.18c18.64,0,36.53-7.05,49.45-19.64c52.85-51.47,95.22-155.23,117.52-234.05
+		C1054.17-380.59,870.3-639.95,540-639.95S25.83-380.59,101.66-112.51c22.3,78.82,64.67,182.58,117.52,234.05
+		c12.93,12.59,30.81,19.64,49.45,19.64H811.36z"/>
+	<circle class="st6" cx="540" cy="554.98" r="75.56"/>
+	<path class="st5" d="M540,528.85c-22.15,0-42.08-9.53-55.9-24.72c-12.22,13.42-19.67,31.26-19.67,50.85
+		c0,41.73,33.83,75.56,75.56,75.56s75.56-33.83,75.56-75.56c0-19.58-7.45-37.42-19.67-50.85C582.08,519.32,562.15,528.85,540,528.85
+		z"/>
+	<path class="st1" d="M432.96,2155.38"/>
+</g>
+<g id="Layer_2" class="st3">
+	<path class="st7" d="M809.54,164.74H270.46c-24.27,0-47.56,10.22-64.31,28.46C113.92,293.65,56.45,435.3,56.45,592.26
+		c0,304.67,216.49,551.65,483.55,551.65s483.55-246.98,483.55-551.65c0-156.97-57.47-298.61-149.71-399.07
+		C857.1,174.95,833.81,164.74,809.54,164.74z M540,931.89c-165.3,0-299.3-152.87-299.3-341.45s134-283.42,299.3-283.42
+		s299.3,94.85,299.3,283.42S705.3,931.89,540,931.89z M1427.42,1081.91"/>
+</g>
+<g id="Layer_3">
+	<ellipse class="st8" cx="540" cy="630.54" rx="209.48" ry="225.27"/>
+</g>
+</svg>

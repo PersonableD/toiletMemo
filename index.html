@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>toiletMemo</title>
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <img class="bg" src="/src/toilet.svg" />
+      <video id="anim">
+        <source src="/src/toilet.mp4" type="video/mp4" />
+      </video>
+      <div id="btnContainer">
+        <button id="btn" type="button">
+          flush<span class="material-symbols-outlined"> water_drop </span>
+        </button>
+      </div>
+      <!-- <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        minlength="4"
+        maxlength="8"
+        size="10"
+        placeholder="마음속의 말을 맘껏 쏟아내봐!"
+      /> -->
+      <div class="inputbox">
+        <input id="name" required="required" type="text" autocomplete="off" />
+        <span>마음속의 말을 맘껏 쏟아내봐!</span>
+        <i></i>
+      </div>
+      <div id="myTexts">
+        <!-- <div id="text2">test</div> -->
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

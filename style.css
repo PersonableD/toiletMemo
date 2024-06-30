@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  background: #eeeeec;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+}
+
+#container {
+  width: 800px;
+  height: 1423px;
+}
+.bg {
+  position: absolute;
+  height: 100%;
+}
+
+#anim {
+  position: absolute;
+  height: 100%;
+  mix-blend-mode: multiply;
+}
+#btnContainer {
+  box-shadow: 0 1rem 1.25rem 0 rgba(77, 77, 77, 0.5),
+    0 -0.25rem 1.5rem rgb(165, 165, 165) inset,
+    0 0.75rem 0.5rem rgb(255, 255, 255) inset,
+    0 0.25rem 0.5rem 0 rgb(224, 224, 224) inset;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  display: block;
+  top: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(to top, #d8d9db 0%, #fff 80%, #fdfdfd 100%);
+  border-radius: 120px;
+  border: 1px solid #a3a3a3;
+}
+
+#btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  outline: none;
+  cursor: pointer;
+  width: 70%;
+  height: 70%;
+  background: linear-gradient(to top, #d8d9db 0%, #fff 80%, #fdfdfd 100%);
+  border-radius: 120px;
+  border: 1px solid #8f9092;
+  transition: all 0.2s ease;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: #606060;
+  text-shadow: 0 1px #fff;
+  text-shadow: 1px 1px 1px #00000040;
+  box-shadow: 0 4px 3px 1px #fcfcfc, 0 6px 8px #d6d7d9, 0 -4px 4px #cecfd1,
+    0 -6px 4px #fefefe, inset 0 0 3px 3px #cecfd1;
+}
+
+@keyframes changeShadow {
+  0% {
+    box-shadow: 0 4px 3px 1px #fcfcfc, 0 6px 8px #d6d7d9, 0 -4px 4px #cecfd1,
+      0 -6px 4px #fefefe, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+  100% {
+    box-shadow: 0 4px 3px 1px #fcfcfc, 0 6px 8px #d6d7d9, 0 -4px 4px #cecfd1,
+      0 -6px 4px #fefefe, inset 0 0 3px 3px #cecfd1;
+  }
+}
+
+.inputbox {
+  position: relative;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 75%;
+}
+
+.inputbox input {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.inputbox span {
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  padding: 20px 10px 10px;
+  font-size: 20px;
+  color: #3d3d3d;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span {
+  color: #45f3ff;
+  transform: translateX(-10px) translateY(-40px);
+  font-size: 20px;
+}
+
+.inputbox i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: #45f3ff;
+  border-radius: 50px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.inputbox input:valid ~ i,
+.inputbox input:focus ~ i {
+  height: 44px;
+}
+.text {
+  position: absolute;
+  top: 0;
+}
+
+.material-symbols-outlined {
+  font-size: 40px;
+}

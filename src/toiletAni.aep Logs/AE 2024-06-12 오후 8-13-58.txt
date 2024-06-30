@@ -1,0 +1,8 @@
+  2024-06-12 오후 8:13:58: Starting composition “toilet”.
+
+  Output To: D:\문서\Coding\toiletMemo\src\toilet_static.png    2024-06-12 오후 8:13:58: Finished composition “toilet”.
+
+
+  Total Time Elapsed: 0 Seconds
+Log closed on 2024-06-12 at 오후 8:13:58
+
